@@ -6,12 +6,11 @@ env参数需修改为个人云开发环境ID
  需要建立Bookkeeping、Event、Note User四个表
 
 ## 截图
-![这里随便写文字](https://github.com/LHpen/wxapp-calendar/blob/master/bizhi.jpg)
-![这里随便写文字](https://github.com/LHpen/wxapp-calendar/blob/master/note1.jpg)
-![这里随便写文字](https://github.com/LHpen/wxapp-calendar/blob/master/note2.jpg)
-![这里随便写文字](https://github.com/LHpen/wxapp-calendar/blob/master/note3.jpg)
-![这里随便写文字](https://github.com/LHpen/wxapp-calendar/blob/master/rili.jpg)
-![这里随便写文字](https://github.com/LHpen/wxapp-calendar/blob/master/yemian.jpg)
+![主题](https://github.com/LHpen/wxapp-calendar/blob/master/yemian1.jpg)
+![日历](https://github.com/LHpen/wxapp-calendar/blob/master/rili.jpg)
+![添加功能](https://github.com/LHpen/wxapp-calendar/blob/master/note1.jpg)
+![添加功能](https://github.com/LHpen/wxapp-calendar/blob/master/note2.jpg)
+![添加功能](https://github.com/LHpen/wxapp-calendar/blob/master/note3.jpg)
 
 ## 参考文档
 

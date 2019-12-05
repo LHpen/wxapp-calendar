@@ -1,0 +1,25 @@
+<!--pages/share/share.wxml-->
+<!--miniprogram/pages/index1/index1.wxml-->
+<view class="con">
+  <view class="tong">
+    <button class="reset-left{{chooseBQ?'':'-notchoosed'}}" bindtap="chooseBQBtnClick">便签</button>
+  </view>
+  <view class="tong">
+    <button class="reset-right{{chooseJZ?'':'-notchoosed'}}" bindtap="chooseJZBtnClick">记账</button>
+  </view>
+  <view class="tong">
+    <button class="reset-right{{chooseWD?'':'-notchoosed'}}" bindtap="chooseWDBtnClick">我的</button>
+  </view>
+</view>
+  
+<view wx:if="{{chooseBQ==true}}">
+  这里是编写便签的分享
+</view>
+<view wx:if="{{chooseBQ==false}}">
+  <view wx:if="{{chooseWD==true}}">
+    这里是编写我的事件分享
+  </view> 
+  <view wx:if="{{chooseWD==false}}">
+    这里是编写记账的分享
+  </view>
+</view>

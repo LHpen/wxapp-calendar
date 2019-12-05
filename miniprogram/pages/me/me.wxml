@@ -1,0 +1,12 @@
+<!--miniprogram/pages/me/me.wxml-->
+ <button open-type='getUserInfo' lang="zh_CN" bindgetuserinfo="onGotUserInfo"></button>
+<view>
+  <view>
+    <text>头像:</text>
+    <open-data type="userAvatarUrl"></open-data>  
+    <text>昵称:</text>
+ <open-data type="userNickName" lang="zh_CN"></open-data>
+    <text>{{nicheng}}</text>
+  </view>
+  
+</view>

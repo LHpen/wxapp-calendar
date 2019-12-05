@@ -1,0 +1,38 @@
+<i-row >
+    <i-col span="12" i-class="col-class">
+      <i-button bind:click="handleClick" type="primary" size="small" class="reset-left{{chooseBQ?'':'-notchoosed'}}" bindtap="onQuery">
+        便签
+      </i-button>
+    </i-col>
+
+    <i-col span="12" i-class="col-class">
+      <i-button bind:click="handleClick" type="primary" size="small" class="reset-right{{chooseJZ?'':'-notchoosed'}}" bindtap="chooseJZBtnClick">
+        记账
+      </i-button>
+    </i-col>
+</i-row>
+
+<view wx:if="{{chooseBQ==true}}">
+<view class="code" wx:for="{{queryResult}}" wx:key="index">
+<view>第{{index+1}}安排事项：</view>
+<view>标题：{{item.biaoti}}</view>
+<view>内容：{{item.neirong}}</view>
+</view>
+</view>
+
+<view wx:if="{{chooseBQ==false}}">
+<view class="code" wx:for="{{queryResult}}" wx:key="index">
+<view>第{{index+1}}账单:</view>
+<view>收入标题：{{item.jizhangbiaoti}}</view>
+<view>支出类型：{{item.zhichuleixing}}</view>
+<view>支出内容：{{item.zhichuneirong}}</view>
+<view>指出金额：{{item.zhichujiner}}</view>
+<view>收入类型：{{item.shouruleixing}}</view>
+<view>收入内容：{{item.shouruneirong}}</view>
+<view>收入金额：{{item.shourujiner}}</view>
+</view>
+</view>
+
+<view class="round-click">
+   <navigator url='/pages/add_to/add_to' >+</navigator >
+</view>

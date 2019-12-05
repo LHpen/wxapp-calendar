@@ -1,0 +1,66 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index1/index1",
+    "pages/rili/rili",
+    "pages/bizhi/bizhi",
+    "pages/first_1/first_1",
+    "pages/my/my",
+    "pages/me/me",
+    "pages/add_to/add_to",
+    "pages/share/share",
+    "pages/jijian/jijian",
+    "pages/quwei/quwei",
+    "pages/zhongguo/zhongguo",
+    "pages/wenyi/wenyi",
+    "pages/gaoduan/gaoduan",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#00b26a",
+    "navigationBarTitleText": "岭南便签",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#D9DDDC",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+    "backgroundColor": "#00b26a",
+    "color": "#FFFFFF",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index1/index1",
+        "text": "首页",
+        "iconPath": "images/home_3.png",
+        "selectedIconPath": "images/home_4.png"
+      },
+      {
+        "pagePath": "pages/rili/rili",
+        "text": "日历",
+        "iconPath": "images/rili.png",
+        "selectedIconPath": "images/rili_2.png"
+      },
+      {
+        "pagePath": "pages/first_1/first_1",
+        "text": "添加",
+        "iconPath": "images/tianjia_2.png",
+        "selectedIconPath": "images/tianjia.png"
+      },
+      {
+        "pagePath": "pages/bizhi/bizhi",
+        "text": "壁纸",
+        "iconPath": "images/tupian_2.png",
+        "selectedIconPath": "images/tupian_3.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath":"images/geren_2.png",
+        "selectedIconPath":"images/geren_3.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+/* miniprogram/pages/my/my.wxss */
+.container{  /*弹性盒子模型,这个后面会单独讲*/  display: flex;  flex-direction: column;   font-size: 25px;/*控制字体大小*/  color:#000000;/*控制字体颜色*/  line-height:15px;/*控制行间距*/  font-weight: bold;/*控制字体加粗*/  font-family:宋体;/*注明是什么字体*/}.userinfo {  height: 50%;  display: flex;  flex-direction: column;  align-items: center;}
+.userinfo-avatar {  width: 180rpx;  height: 180rpx;  margin: 50rpx;  border-radius: 70%;}
+.userinfo-nickname {  color: rgb(0, 0, 0);}
+.usermotto {  margin-top: 20px;}
+.user_information{  margin-top: 10rpx;  background: rgb(255, 255, 255);  width: 100%;  line-height: 52px;  font-size: 34rpx;
+}

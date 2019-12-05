@@ -1,0 +1,76 @@
+/* pages/share/share.wxss */
+.con{
+  display: flex;
+}
+.tong{
+  margin: 50rpx 60rpx;
+  size: mini;
+  font-size: 18px;
+}
+
+
+.reset-left {
+  width: 100%;
+  height: 60%;
+  margin-right: 20%;
+  background-color:rgb(28,200,138);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.reset-left-notchoosed {
+  width: 100%;
+  height: 60%;
+  margin-right: 20%;
+  background-color:rgb(255,255,255);
+  border: 2rpx solid #1CC88A;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.reset-right {
+  width: 100%;
+  height: 60%;
+  margin-right: 20%;
+  background-color:rgb(28,200,138);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.reset-right-notchoosed {
+  width: 100%;
+  height: 60%;
+  margin-right: 20%;
+  background-color:rgb(255,255,255);
+  border: 2rpx solid #1CC88A;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}

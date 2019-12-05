@@ -1,0 +1,19 @@
+
+<view>
+<i-button bind:click="handleClick" type="success" shape="circle" class="reset-left{{chooseJZ?'':'-notchoosed'}}"   bindtap="chooseJZBtnClick">账单</i-button>
+<i-button bind:click="handleClick" type="success" shape="circle" class="reset-right{{chooseSJ?'':'-notchoosed'}}"  bindtap="chooseSJBtnClick">事件</i-button>
+</view>
+
+
+<view wx:if="{{chooseJZ==true}}">
+<view class="containers">
+    <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ec }}" bind:init="echartInit"></ec-canvas>
+</view>
+
+</view>
+
+<view wx:if="{{chooseJZ==false}}">
+<view class="containers">
+    <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ec }}" bind:init="echartInit1"></ec-canvas>
+</view>
+</view>

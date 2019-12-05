@@ -1,0 +1,81 @@
+<!--pages/add_to/add_to.wxml-->
+
+<i-row>
+    <i-col span="8" i-class="col-class">
+<i-button bind:click="handleClick" type="primary" size="circle" class="reset-left{{chooseBQ?'':'-notchoosed'}}" bindtap="chooseBQBtnClick">
+便签</i-button>
+    </i-col>
+    <i-col span="8" i-class="col-class" offset="8">
+<i-button bind:click="handleClick" type="primary" size="circle" class="reset-right{{chooseJZ?'':'-notchoosed'}}" bindtap="chooseJZBtnClick">记账</i-button>
+    </i-col>
+</i-row>
+
+
+
+<view wx:if="{{chooseBQ==true}}">
+  <form bindsubmit='onAdd'>
+    <view>
+      <text>标题：</text>
+      <input type="text" name="bianqian1" placeholder="请输入便签的标题不得超过15个字"/>
+      <text>内容：</text>
+      <input type="text" name='neirong'  placeholder="请输入便签的内容"/>
+    </view>
+    <view class="tong">
+      <button class="reset-left1{{chooseWC?'':'-notchoosed'}}" form-type='submit'>完成</button>
+    </view>
+    <view class="tong">
+      <button class="reset-right1{{chooseFX?'':'-notchoosed'}}" open-type='share'>分享</button>
+    </view>
+  </form>
+</view>
+
+  
+
+
+<view wx:if="{{chooseBQ==false}}">
+  <form bindsubmit="onAdd1">
+    <text>标题：</text>
+    <input type="text" name='biaoti1' placeholder="请输入记账的标题不得超过15个字"/>
+    <text>类型：</text>
+    <radio-group name='leixing'>
+      <label>
+        <radio value="吃喝" checked/>吃喝</label>
+      <label>
+        <radio value="游玩"/>游玩</label>
+      <label>
+        <radio value="医药"/>医药</label>
+      <label>
+        <radio value="日用品"/>日用品</label>
+      <label>
+        <radio value="其他" />其他</label>
+    </radio-group>
+    <text>支出：</text>
+    <input type="text" name='zhichu' placeholder="请输入支出的内容"/>
+    <input type="number"  name='jiner' placeholder="请输入支出的金额"/>
+
+    <text>类型：</text>
+    <radio-group name='leixing1'>
+      <label>
+        <radio value="红包" checked/>红包</label>
+      <label>
+        <radio value="薪资"/>薪资</label>
+      <label>
+        <radio value="投资"/>投资</label>
+      <label>
+        <radio value="其他"/>其他</label>
+    </radio-group>
+
+    <text>收入：</text>
+    <input type="text" name='shouru1' placeholder="请输入收入的内容"/>
+    <input type="number" name='jiner1' placeholder="请输入收入的金额"/>
+
+    <view class="tong">
+       <button class="reset-left1{{chooseWC?'':'-notchoosed'}}" form-type='submit'>完成</button>
+    </view>
+    <view class="tong">
+    <button class="reset-right1{{chooseFX?'':'-notchoosed'}}" bindtap="chooseFXBtnClick">分享</button>
+    </view>
+  </form>
+</view>
+
+

@@ -1,0 +1,10 @@
+
+.containers{
+  height: 500rpx;
+  display: flex;
+  flex-direction: column;
+}
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}

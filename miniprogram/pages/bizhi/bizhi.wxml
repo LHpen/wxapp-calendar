@@ -1,0 +1,25 @@
+<view>
+  <button class="" plain='true' bindtap="jijain">
+    <image src="cloud://yun20190946-bcz7r.7975-yun20190946-bcz7r-1300224932/image/123.jpg" mode="widthFix"></image>
+  </button>
+</view>
+<view>
+  <button class="" plain='true' bindtap="quwei">
+    <image src="cloud://yun20190946-bcz7r.7975-yun20190946-bcz7r-1300224932/image/youmo.png" mode="widthFix"></image>
+  </button>
+</view>
+<view>
+  <button class="" plain='true' bindtap="zhongguo">
+    <image src="cloud://yun20190946-bcz7r.7975-yun20190946-bcz7r-1300224932/image/zhongguofeng.png" mode="widthFix"></image>
+  </button>
+</view>
+<view>
+  <button class="" plain='true' bindtap="wenyi">
+    <image src="cloud://yun20190946-bcz7r.7975-yun20190946-bcz7r-1300224932/image/wenyi.jpg" mode="widthFix"></image>
+  </button>
+</view>
+<view>
+  <button class="" plain='true' bindtap="gaoduan">
+    <image src="cloud://yun20190946-bcz7r.7975-yun20190946-bcz7r-1300224932/image/shangwu.png" mode="widthFix"></image>
+  </button>
+</view>
